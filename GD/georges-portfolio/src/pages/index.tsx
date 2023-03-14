@@ -32,12 +32,12 @@ export default function Home() {
               </ul>
             </nav>
 
-            <div className=' text-center p-5'>
+            <div className='text-center p-5'>
               <h2 className='text-5xl py-2 text-gray-600 font-medium'>
                 George's Portfolio Page
               </h2>
               <h3 className='text-2xl py-2'>Designer, Creator and Crypto Enthusiast</h3>
-              <p className='text-md leading-5 text-gray-800 max-w-xl'>
+              <p className='text-md leading-5 text-gray-800 '>
                 Hi I am George, As a diligent and highly self-motivated individual, I am eager to learn and develop my Web
                 Development and design skills as I
                 progress through my career. My time learning web development has cemented my enthusiasm for creating websites.
