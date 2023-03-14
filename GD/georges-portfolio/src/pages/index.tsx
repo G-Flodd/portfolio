@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub } from "react-icons/ai";
 import Image from "next/image";
-import flodd from '../public/flodd.png';
+import flodd from '../public/avatar.jpeg';
 import Card from './Card.js'
 import projects from './project.json'
 
@@ -23,20 +22,21 @@ export default function Home() {
         <div className='min-h-screen'>
           <section>
             <nav className='py-10 mb-20 flex justify-between'>
-              <h1 className='text-2xl font-'>The Foolz</h1>
+              <h1 className='text-2xl font-'>   DoddDigitals</h1>
               <ul className='flex items-center'>
                 <li>
-                  <AiFillLinkedin className='cursor-pointer text-4xl' />
                 </li>
-                <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="https:www.linkedin.com/in/george-dodd-irwin-b6a11a242/"> LinkedIn </a> </li>
+                <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/skills"> Skills </a> </li>
+                <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/projects"> Projects </a> </li>
+                <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/contact"> Contact </a> </li>
               </ul>
             </nav>
 
             <div className=' text-center p-10'>
               <h2 className='text-5xl py-2 text-gray-600 font-medium'>
-                The Foolz NFT
+                George's Portfolio Page
               </h2>
-              <h3 className='text-2xl py-2'>Mooner, Rugger and Scem</h3>
+              <h3 className='text-2xl py-2'>Designer, Creator and Crypto Enthusiast</h3>
               <p className='text-md py-6 leading-5 text-gray-800 max-w-xl'>
                 Hi Im George,
 
