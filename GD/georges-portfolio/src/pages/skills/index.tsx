@@ -23,6 +23,7 @@ const skills: NextPage = () => {
                             <ul className='flex items-center'>
                                 <li>
                                 </li>
+                                <li> <a className='bg-gray-800 text-white px-3 py-2 rounded-lg ml-2' href="/"> Home </a> </li>
                                 <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/skills"> Skills </a> </li>
                                 <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/projects"> Projects </a> </li>
                                 <li> <a className='bg-gray-600 text-white px-3 py-2 rounded-lg ml-2' href="/contact"> Contact </a> </li>
@@ -34,43 +35,32 @@ const skills: NextPage = () => {
                                 My Skills
                             </h2>
                             <h3 className='text-2xl py-2'>Designer, Creator and Crypto Enthusiast</h3>
-                            <p className='text-md py-6 leading-5 text-gray-800 max-w-xl'>
-                                Hi Im George,
-
-                            </p>
-
-                        </div>
-                        <div className='text-5xl flex justify-center gap-10 py-4 text-gray-500'>
-                            <AiFillTwitterCircle />
-                            <AiFillGithub />
-                            <AiFillLinkedin />
                         </div>
                     </section>
 
                     <section>
                         <div>
-                            <h3 className="text-center text-3xl py-2"> Soft SKills</h3>
+                            <h3 className="text-center text-3xl py-2"> Software </h3>
                             <p className="text-center text-md py-2 leading-8 text-gray-900">
-                                xxxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxxx  xxxxx x
-                                xxxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxxx  xxxxx x
+                                • AutoCAD
+                                • Site 3D
+                                • Adobe Illustrator
+                                • Adobe Photoshop
+                                • AutoCAD
+                                • Site 3D
+                                • Adobe Illustrator
+                                • Adobe Photoshop
                             </p>
 
-                            <h3 className="text-center text-3xl py-2"> Hard SKills</h3>
+                            <h3 className="text-center text-3xl py-2"> Soft Skills</h3>
                             <p className="text-center text-md py-2 leading-8 text-gray-900">
-                                xxxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxxx  xxxxx x
-                                xxxxxxxx xxxxxxxx xxxxxxxxx xxxxxxxxx xxxxxxxx xxxxxxx xxxxxx xxxx  xxxxx x
+                                • Organisational and time management
+                                • Attention to detail
+                                • Problem solving
+                                • Communication and collaboration
+                                • Work well in fast paced environments
                             </p>
                         </div>
-
-                        <section>
-                            <div>
-                                <h3 className="text-center text-3xl py-2"> Examples of my work</h3>
-                                <p className="text-center text-md py-2 leading-8 text-gray-900">
-
-                                </p>
-                            </div>
-                        </section>
-
                     </section>
 
                 </div>
